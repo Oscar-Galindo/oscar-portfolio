@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Galindo | Senior Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400&family=DM+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <style>
+        @keyframes fadeUp {
+            0% { opacity: 0; transform: translateY(24px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-[#FFFFFF] text-[#000000] antialiased font-['DM_Sans',sans-serif] font-light selection:bg-[#06C167] selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-[#000000] text-[#FFFFFF] z-50 px-8 py-6 flex justify-between items-center font-['DM_Mono',monospace] text-xs uppercase tracking-widest rounded-none">
+        <div class="tracking-tight font-normal text-lg leading-none">OG<span class="text-[#06C167]">.</span></div>
+        <div class="flex gap-8">
+            <a href="#work" class="hover:text-[#06C167] transition-colors duration-200">Work</a>
+            <a href="#contact" class="hover:text-[#06C167] transition-colors duration-200">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen pt-40 pb-32 px-8 md:px-16 lg:px-32 flex flex-col justify-center items-start border-b border-[#000000]/10">
+        <h1 class="font-['Bebas_Neue',sans-serif] text-7xl md:text-8xl lg:text-9xl tracking-tight leading-none uppercase" style="animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; animation-delay: 150ms;">
+            Oscar Galindo
+        </h1>
+        <h2 class="font-['DM_Mono',monospace] text-xs md:text-sm uppercase tracking-widest mt-6 text-[#000000]/60" style="animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; animation-delay: 300ms;">
+            Senior Frontend Developer
+        </h2>
+        <p class="font-['DM_Sans',sans-serif] font-light text-base md:text-lg max-w-2xl mt-8 leading-relaxed text-[#000000]/90" style="animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; animation-delay: 450ms;">
+            10+ years building fast, accessible, and scalable web platforms. WordPress, React, headless CMS, and enterprise grade systems that ship clean.
+        </p>
+        <div style="animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; animation-delay: 600ms;" class="mt-16">
+            <a href="#work" class="bg-[#000000] text-[#FFFFFF] font-['DM_Mono',monospace] text-xs uppercase tracking-widest py-5 px-10 hover:bg-[#06C167] transition-colors duration-200 inline-flex items-center gap-3 group rounded-none">
+                View My Work
+                <iconify-icon icon="solar:arrow-right-linear" class="text-base" style="stroke-width: 1.5;"></iconify-icon>
+            </a>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="py-32 md:py-48 px-8 md:px-16 lg:px-32 border-b border-[#000000]/10">
+        <div class="mb-24 flex items-center gap-4">
+            <div class="w-2 h-2 bg-[#06C167]"></div>
+            <h3 class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/60">Selected Engineering</h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-10">
+            <!-- Project 1 -->
+            <div class="col-span-1 md:col-span-1 lg:col-span-2 border border-[#000000] p-8 md:p-10 group bg-[#FFFFFF] flex flex-col justify-between min-h-[480px] rounded-none">
+                <div>
+                    <h4 class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200 mb-6">UVA Health</h4>
+                    <p class="font-['DM_Sans',sans-serif] font-light text-sm md:text-base mb-8 text-[#000000]/80 leading-relaxed">
+                        Enterprise healthcare content platform. Headless CMS architecture supporting multi-site routing, live preview, and gated content.
+                    </p>
+                    <a href="https://www.uvahealth.com/" target="_blank" class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000] hover:text-[#06C167] flex items-center gap-2 mb-10 w-fit transition-colors duration-200">
+                        uvahealth.com <iconify-icon icon="solar:arrow-right-up-linear" style="stroke-width: 1.5;"></iconify-icon>
+                    </a>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">React</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Contentstack</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Uno CSS</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">OAuth 2.0</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Firebase</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-span-1 md:col-span-1 lg:col-span-2 border border-[#000000] p-8 md:p-10 group bg-[#FFFFFF] flex flex-col justify-between min-h-[480px] rounded-none">
+                <div>
+                    <h4 class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200 mb-6">NRS3PL</h4>
+                    <p class="font-['DM_Sans',sans-serif] font-light text-sm md:text-base mb-8 text-[#000000]/80 leading-relaxed">
+                        Custom WordPress build for a third-party logistics company. Built with Advanced Custom Fields and fully custom PHP templates. No page builder, clean native architecture.
+                    </p>
+                    <a href="https://nrs3pl.com/" target="_blank" class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000] hover:text-[#06C167] flex items-center gap-2 mb-10 w-fit transition-colors duration-200">
+                        nrs3pl.com <iconify-icon icon="solar:arrow-right-up-linear" style="stroke-width: 1.5;"></iconify-icon>
+                    </a>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">WordPress</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">ACF</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">PHP</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Custom Templates</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-span-1 md:col-span-1 lg:col-span-2 border border-[#000000] p-8 md:p-10 group bg-[#FFFFFF] flex flex-col justify-between min-h-[480px] rounded-none">
+                <div>
+                    <h4 class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200 mb-6">Scott System</h4>
+                    <p class="font-['DM_Sans',sans-serif] font-light text-sm md:text-base mb-8 text-[#000000]/80 leading-relaxed">
+                        WordPress site and HTML email campaigns for a B2B technology company. Custom development environment with Docker and WP CLI. Responsive emails cross-client tested with Litmus.
+                    </p>
+                    <a href="https://www.scottsystem.com/" target="_blank" class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000] hover:text-[#06C167] flex items-center gap-2 mb-10 w-fit transition-colors duration-200">
+                        scottsystem.com <iconify-icon icon="solar:arrow-right-up-linear" style="stroke-width: 1.5;"></iconify-icon>
+                    </a>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">WordPress</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Docker</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">WP CLI</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">PHP</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">HTML Email</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Salesforce Marketing Cloud</span>
+                </div>
+            </div>
+
+            <!-- Project 4 (Centered on Row 2 for Large Screens) -->
+            <div class="col-span-1 md:col-span-1 lg:col-span-2 lg:col-start-2 border border-[#000000] p-8 md:p-10 group bg-[#FFFFFF] flex flex-col justify-between min-h-[480px] rounded-none">
+                <div>
+                    <h4 class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200 mb-6">Workforce Software</h4>
+                    <p class="font-['DM_Sans',sans-serif] font-light text-sm md:text-base mb-8 text-[#000000]/80 leading-relaxed">
+                        WordPress-based web presence for an enterprise workforce management SaaS. Custom Docker development environment with WP CLI for clean local-to-production workflows.
+                    </p>
+                    <a href="https://workforcesoftware.com/" target="_blank" class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000] hover:text-[#06C167] flex items-center gap-2 mb-10 w-fit transition-colors duration-200">
+                        workforcesoftware.com <iconify-icon icon="solar:arrow-right-up-linear" style="stroke-width: 1.5;"></iconify-icon>
+                    </a>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">WordPress</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Docker</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">WP CLI</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">PHP</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">MySQL</span>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-span-1 md:col-span-1 lg:col-span-2 border border-[#000000] p-8 md:p-10 group bg-[#FFFFFF] flex flex-col justify-between min-h-[480px] rounded-none">
+                <div>
+                    <h4 class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200 mb-6">Heartland Dental</h4>
+                    <p class="font-['DM_Sans',sans-serif] font-light text-sm md:text-base mb-8 text-[#000000]/80 leading-relaxed">
+                        Migrated five legacy templates into a unified modern architecture across 1,000+ locations. Consolidated siloed component libraries into a single shared system with design tokens.
+                    </p>
+                    <a href="https://heartland.com/" target="_blank" class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000] hover:text-[#06C167] flex items-center gap-2 mb-10 w-fit transition-colors duration-200">
+                        heartland.com <iconify-icon icon="solar:arrow-right-up-linear" style="stroke-width: 1.5;"></iconify-icon>
+                    </a>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">React</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Vite</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">Yext Pages</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">WCAG 2.2</span>
+                    <span class="border border-[#000000] px-3 py-1.5 rounded-full font-['DM_Mono',monospace] text-xs uppercase tracking-widest hover:border-[#06C167] hover:text-[#06C167] cursor-default transition-colors duration-200">TypeScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Development Section -->
+    <section class="py-32 md:py-48 px-8 md:px-16 lg:px-32 border-b border-[#000000]/10">
+        <div class="mb-24 flex items-center gap-4">
+            <div class="w-2 h-2 bg-[#06C167]"></div>
+            <h3 class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/60">Email Infrastructure</h3>
+        </div>
+
+        <div class="max-w-4xl mb-24">
+            <p class="font-['DM_Sans',sans-serif] font-light text-lg md:text-xl text-[#000000]/90 leading-relaxed">
+                Modular, responsive HTML emails built for enterprise brands. Cross client tested with Litmus, deployed via Salesforce Marketing Cloud and HubSpot.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-[#FFFFFF] border border-[#000000]/10 hover:border-[#000000] p-10 group transition-colors duration-200 rounded-none">
+                <h4 class="font-['Bebas_Neue',sans-serif] text-4xl tracking-tight uppercase mb-3">AbbVie</h4>
+                <p class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50 group-hover:text-[#06C167] transition-colors duration-200">Salesforce Marketing Cloud</p>
+            </div>
+            
+            <div class="bg-[#FFFFFF] border border-[#000000]/10 hover:border-[#000000] p-10 group transition-colors duration-200 rounded-none">
+                <h4 class="font-['Bebas_Neue',sans-serif] text-4xl tracking-tight uppercase mb-3">Yamaha</h4>
+                <p class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50 group-hover:text-[#06C167] transition-colors duration-200">Litmus Tested</p>
+            </div>
+
+            <div class="bg-[#FFFFFF] border border-[#000000]/10 hover:border-[#000000] p-10 group transition-colors duration-200 rounded-none">
+                <h4 class="font-['Bebas_Neue',sans-serif] text-4xl tracking-tight uppercase mb-3">Dickies</h4>
+                <p class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50 group-hover:text-[#06C167] transition-colors duration-200">Salesforce Marketing Cloud</p>
+            </div>
+
+            <div class="bg-[#FFFFFF] border border-[#000000]/10 hover:border-[#000000] p-10 group transition-colors duration-200 rounded-none">
+                <h4 class="font-['Bebas_Neue',sans-serif] text-4xl tracking-tight uppercase mb-3">Scott Systems</h4>
+                <p class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50 group-hover:text-[#06C167] transition-colors duration-200">HubSpot</p>
+            </div>
+
+            <div class="bg-[#FFFFFF] border border-[#000000]/10 hover:border-[#000000] p-10 group transition-colors duration-200 rounded-none">
+                <h4 class="font-['Bebas_Neue',sans-serif] text-4xl tracking-tight uppercase mb-3">Workforce Software</h4>
+                <p class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50 group-hover:text-[#06C167] transition-colors duration-200">HubSpot</p>
+            </div>
+
+            <div class="bg-[#FFFFFF] border border-[#000000]/10 hover:border-[#000000] p-10 group transition-colors duration-200 rounded-none">
+                <h4 class="font-['Bebas_Neue',sans-serif] text-4xl tracking-tight uppercase mb-3">NRS</h4>
+                <p class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50 group-hover:text-[#06C167] transition-colors duration-200">Litmus Tested</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CMS Platforms Section -->
+    <section class="py-32 md:py-48 px-8 md:px-16 lg:px-32 border-b border-[#000000]/10">
+        <div class="mb-24 flex items-center gap-4">
+            <div class="w-2 h-2 bg-[#06C167]"></div>
+            <h3 class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/60">CMS Integration</h3>
+        </div>
+
+        <div class="flex flex-col gap-y-16">
+            <div class="flex flex-col md:flex-row md:items-end gap-2 md:gap-6 group cursor-default">
+                <span class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200">WordPress</span>
+                <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#06C167] pb-2 md:pb-3 leading-none">ACF, Gutenberg, WP CLI, Docker, Custom Themes and Plugins</span>
+            </div>
+            
+            <div class="flex flex-col md:flex-row md:items-end gap-2 md:gap-6 group cursor-default">
+                <span class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200">Contentful</span>
+                <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#06C167] pb-2 md:pb-3 leading-none">Certified Professional, Content Models, Routing</span>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:items-end gap-2 md:gap-6 group cursor-default">
+                <span class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200">Contentstack</span>
+                <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#06C167] pb-2 md:pb-3 leading-none">Live Preview, Multi site, Headless Architecture</span>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:items-end gap-2 md:gap-6 group cursor-default">
+                <span class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200">HubSpot</span>
+                <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#06C167] pb-2 md:pb-3 leading-none">CMS, RevOps Certified, CRM Integration</span>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:items-end gap-2 md:gap-6 group cursor-default">
+                <span class="font-['Bebas_Neue',sans-serif] text-5xl md:text-6xl tracking-tight uppercase group-hover:text-[#06C167] transition-colors duration-200">Salesforce</span>
+                <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#06C167] pb-2 md:pb-3 leading-none">Marketing Cloud, Email Studio</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-32 md:py-48 px-8 md:px-16 lg:px-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
+            <div>
+                <h2 class="font-['Bebas_Neue',sans-serif] text-7xl md:text-8xl lg:text-9xl tracking-tight leading-none uppercase">
+                    Let's Build<br>Something <span class="text-[#06C167]">Good</span>
+                </h2>
+            </div>
+            
+            <div class="flex flex-col pt-4">
+                <div class="group flex flex-col md:flex-row md:items-center justify-between border-b border-[#000000]/10 py-8 first:pt-0 hover:border-[#000000] transition-colors duration-200 gap-4 md:gap-0">
+                    <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50">Email</span>
+                    <a href="mailto:onmgalindo@gmail.com" class="font-['DM_Mono',monospace] text-sm md:text-base uppercase tracking-widest text-[#000000] group-hover:text-[#06C167] transition-colors duration-200 text-left md:text-right">
+                        onmgalindo@gmail.com
+                    </a>
+                </div>
+                
+                <div class="group flex flex-col md:flex-row md:items-center justify-between border-b border-[#000000]/10 py-8 hover:border-[#000000] transition-colors duration-200 gap-4 md:gap-0">
+                    <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50">Phone</span>
+                    <a href="tel:7327792087" class="font-['DM_Mono',monospace] text-sm md:text-base uppercase tracking-widest text-[#000000] group-hover:text-[#06C167] transition-colors duration-200 text-left md:text-right">
+                        (732) 779-2087
+                    </a>
+                </div>
+
+                <div class="group flex flex-col md:flex-row md:items-center justify-between border-b border-[#000000]/10 py-8 hover:border-[#000000] transition-colors duration-200 gap-4 md:gap-0">
+                    <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50">LinkedIn</span>
+                    <a href="https://linkedin.com/in/oscar-e-galindo" target="_blank" class="font-['DM_Mono',monospace] text-sm md:text-base uppercase tracking-widest text-[#000000] group-hover:text-[#06C167] transition-colors duration-200 text-left md:text-right">
+                        linkedin.com/in/oscar-e-galindo
+                    </a>
+                </div>
+
+                <div class="group flex flex-col md:flex-row md:items-center justify-between border-b border-[#000000]/10 py-8 hover:border-[#000000] transition-colors duration-200 gap-4 md:gap-0">
+                    <span class="font-['DM_Mono',monospace] text-xs uppercase tracking-widest text-[#000000]/50">Location</span>
+                    <span class="font-['DM_Mono',monospace] text-sm md:text-base uppercase tracking-widest text-[#000000] group-hover:text-[#06C167] transition-colors duration-200 text-left md:text-right cursor-default">
+                        Beachwood NJ, Remote Ready
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
